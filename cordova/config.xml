@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="ua.com.mobpress.vgolos" version="0.0.1" xmlns="http://www.w3.org/ns/widgets">
+    <name>#Думки вголос</name>
+    <description>
+        Збірка поезій молодої української письменниці, що пише під чоловічим псевдо "Василь Вітер"
+    </description>
+    <author email="ka4uwka@gmail.com" href="http://mobpress.com.ua">
+        Василь Вітер
+    </author>
+    <access origin="*" />
+
+    <plugin name="cordova-plugin-dialogs" version="1.2.1" />
+    <plugin name="com.cmackay.plugins.googleanalytics" version="0.1.22" />
+
+    <preference name="Fullscreen" value="false" />
+    <platform name="android">
+        <icon src="res/android/ldpi.png" density="ldpi" />
+        <icon src="res/android/mdpi.png" density="mdpi" />
+        <icon src="res/android/hdpi.png" density="hdpi" />
+        <icon src="res/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+</widget>
+
